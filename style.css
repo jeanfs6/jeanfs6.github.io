@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+}
+div {
+    border: 3px black solid;
+}
+#descricao {
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    right: 20px;
+}
+#softskills {
+    position: absolute;
+    top: 800px;
+}
+#minhafoto {
+    padding: 10px;
+}
+div div p {
+background-color: chocolate;
+}
+h1 {
+    text-align: center;
+}
+.segundoparagrafo {
+    font-weight: 900;
+    font-size: 25px;
+}
