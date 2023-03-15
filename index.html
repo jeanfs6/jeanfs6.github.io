@@ -1,34 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>Jean Fonseca | Projeto Portfólio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!-- Ícones -->
+    <script src="https://kit.fontawesome.com/119dad780f.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-  <h1> Oi, me chamo <strong>Jean Carlos Santos Fonseca</strong></h1>
-  <div id="Foto">
-      <img src="fotoperfil.jpeg" id="minhafoto" alt="Foto de rosto do Jean Carlos Santos Fonseca" width="250">
-        <div id="descricao">
-            <p>Sou <strong >Engenheiro de Petróleo</strong> e estudante de Desenvolvimento aqui na <strong >Trybe</strong>, eu nasci no Brasil, no estado do <strong >Rio de Janeiro</strong> na cidade do <strong >Rio de Janeiro</strong>.<br>Cada dia mais apaixonado pela área de tecnologia. Sempre que conquisto novos aprendizados aqui na <strong>Trybe</strong>, seja na parte técnia ou em soft skillls, me sinto mais motivado para seguir em frente. Além disso, amo jogar vôlei, ir à praia e assistir séries.</p>
-        </div>
-    </div>
-  <div id="softskills"> 
-    <h2><strong>Soft Skills</strong></h2>
-
-  
-
-    <ol class="segundoparagrafo">
-        <li><a href="#primeiroparagrafo">Empatia</a></li>
-        <li>Resiliência.</li>
-        <li>Boa comunicação.</li>
-        <li>habiliddade</li>
-        <li>Facilidade para trabalhar em grupo.</li>
-        <br>
-        <a href="https://blog.betrybe.com/" target="_blank">Meu Blog favorito</a>
-    </ol>
-        <p><a target="_blank" href="fotoperfil.jpeg">link da foto do perfil</a> </p>
-  </div>
-  
+    <header>
+        <h1>Dev.Jean</h1>
+        <nav>
+            <a href="https://github.com/jeanfs6" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jean-fonseca-dev/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+           <section class="main-content">
+            <article class="text">
+                <h2>🌝 Sobre mim</h2>
+                <p> Olá, me chamo Jean Carlos Santos Fonseca, tenho 32 anos e 
+                    sou do Rio de Janeiro, Brasil. Engenheiro de formação e 
+                    recém formado no curso de Desenvolvimento Web pela Trybe. 
+                    Tive a oportunidade de trabalhar na área de educação e administrativa.
+                    Me sinto pronto para dar os meus próximos passos na minha carreira de
+                    desenvoledor.
+                    
+                </p>
+            </article>
+            <aside class="techs">
+                <h2>🧑🏻‍💻 Tecnologias</h2>
+                <div class="cards-container">
+                <div class="card">
+                    <img src="./img/techs/html.png" alt="Logo HTML5">  
+                </div>
+                <div class="card">
+                    <img src="./img/techs/css.png" alt="Logo CSS5">  
+                </div>
+                <div class="card">
+                    <img src="./img/techs/js.png" alt="Logo JS">  
+                </div>
+                </div>
+            </aside>
+           </section> 
+           <figure>
+            <img src="./img/techs/fotoperfil.jpeg" alt="Jean-Perfil">
+            <figcaption>Jean Carlos Santos Fonseca</figcaption>
+           </figure>
+        
+    </main>
+    <footer>
+        <span>
+            &copy; Jean Carlos Santos Fonseca, 2023 - todos os direitos reservados.
+        </span>
+    </footer>
+    
 </body>
 </html>
